@@ -560,7 +560,7 @@ p5.prototype.collidePointArcVector = function(p1, a, arcRadius, arcHeading, arcA
   }
 
   return false;
-}
+
 
 p5.prototype.collidePolyPolyVector = function(p1, p2, interior) {
   return p5.prototype.collidePolyPoly(p1, p2, interior);
